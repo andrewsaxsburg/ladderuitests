@@ -1,0 +1,30 @@
+appId: com.example.laddermobile
+---
+#- launchApp
+- tapOn: "Email"
+- inputText: "chrisaydat@gmail.com"
+- tapOn: "Password"
+- inputText: "chrisaydat1CHRIS@"
+- tapOn: "Login"
+- tapOn: 
+    text: "Stash\nTab 2 of 4"
+- tapOn: "Quick Actions"
+- tapOn: 
+    text: "Create a custom\nsavings plan"
+- tapOn: 
+    text: "USDC\nStrict\nLadder Lock\nLock your USDC to earn interest."
+- tapOn: "Ok"
+- tapOn: 
+    text: "USDC\nFlexible\nFlex Dollar\nBuy & Hold USDC whenever you want."
+- tapOn: "Amount (USDC)"
+- inputText: "1000"
+- tapOn: "Continue"
+- tapOn: "Monthly" # discrepancies, it says once is not a valid choice
+- tapOn: "Choose"
+- tapOn: "MTN 0540755223"
+- tapOn: "Continue"
+- tapOn: "Confirm"
+- tapOn: "Continue"
+- back
+- back
+- back
